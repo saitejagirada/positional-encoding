@@ -3,8 +3,6 @@ This repository is my attempt to truly understand positional encodings used in T
 
 Instead of jumping straight into frameworks, I build positional encodings step by step using NumPy, visualize them, and connect the math with intuition.
 
-⸻
-
 Why Positional Encoding?
 
 Transformers do not understand word order by default.
@@ -19,8 +17,6 @@ Self-attention alone cannot distinguish this.
 
 Positional Encoding solves this by injecting information about where each token appears in a sequence.
 
-⸻
-
  What This Notebook Covers
 	•	What positions mean in Transformers
 	•	Why order information is required
@@ -31,8 +27,6 @@ Positional Encoding solves this by injecting information about where each token 
 	•	Understanding the diagonal wave patterns in the plot
 
 Everything is explained with code + intuition, not just formulas.
-
-⸻
 
 Core Idea (In Simple Words)
 
